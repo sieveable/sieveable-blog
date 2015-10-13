@@ -1,0 +1,26 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "The Sieveable's blog",
+    "owner": "Sieveable",
+    "description": "Our journey to dig deeper into Android apps"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}

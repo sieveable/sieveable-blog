@@ -1,0 +1,32 @@
+
+extends layout
+
+block content
+  include author
+  .posts
+  each article in articles
+    .post
+      header
+        h1.post-title
+          a(href=article.url)= article.title
+        span.post-date= moment.utc(article.date).format('ll')
+      section.content
+        if article.intro.length > 0
+          != typogr(article.intro).typogrify()
+        if article.hasMore
+          p.more
+            a(href=article.url) More ➜
+
+block prepend footer
+  .container
+    .col-md-12.text-center
+      ul.pager
+        if prevPage
+          li
+            a(href=prevPage.url) « Newer
+        else
+          li
+            a(href='/archive.html') « Archives
+        if nextPage
+          li
+            a(href=nextPage.url) Next page »
