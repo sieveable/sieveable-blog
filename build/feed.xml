@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Sieveable's blog</title>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://localhost:8080</link>
+    <description>Our journey to dig deeper into Android apps</description>
+    <pubDate>Mon, 12 Oct 2015 18:00:00 -0600</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Welcome to Sieveable!</title>
+      <link>http://localhost:8080/articles/welcome-to-sieveable/</link>
+      <pubDate>Mon, 12 Oct 2015 18:00:00 -0600</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/welcome-to-sieveable/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today, we introduce Sieveable, the deep search engine for Android apps.
+Sieveable is made by a group of researchers at the University of Colorado’s Sikuli lab.
+For the first time, our search engine enables developers, deisgners, and researchers to search
+inside Android apps.&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Sieveable enables you to deeply search inside Android apps. You can search for apps by listing details (e.g., download count, star rating, description, etc.), user interface (e.g., layout components or hierarchy), Manifest (e.g., declared permissions), and API calls (e.g., use of a particular third party library).&lt;/p&gt;
+&lt;p&gt;Sieveable’s search queries are examples of Android apps. You do not need to learn a new query language to search inside apps. Sieveable features a declarative query language that uses the same syntax used in Android apps.&lt;/p&gt;
+&lt;p&gt;Sieveable is free and &lt;a href=&quot;https://github.com/sieveable&quot;&gt;fully open source&lt;/a&gt;. You can read the source code or change it however you want. We made it open because we strongly believe that open source creates better software and great community.&lt;/p&gt;
+&lt;p&gt;In this blog, we share with you our journey in searching and mining Android apps.
+We hope that Sieveable empowers developers to make better decisions supported by data when searching for apps and facilitates mining apps at large-scale.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
