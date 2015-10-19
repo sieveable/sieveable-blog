@@ -8,6 +8,7 @@ html(lang='en')
       meta(http-equiv="X-UA-Compatible", content="IE=edge")
       meta(name="viewport", content="width=device-width, initial-scale=1.0")
       meta(name="Sieveable Blog", content="Sieveable: the deep search engine for Android apps")
+      link(rel="icon", type="image/png", href=contents.images["sieveable-icon.png"].url)
       title
         block title
           = locals.name
@@ -22,6 +23,13 @@ html(lang='en')
       link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
       link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
       link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Open+Sans")
+      link(rel='stylesheet', href=contents.css['github.css'].url)
+      link(rel="stylesheet", href="//cdn.jsdelivr.net/chartist.js/0.9.4/chartist.min.css")
+      script(src="//cdn.jsdelivr.net/chartist.js/0.9.4/chartist.min.js")
+      script(src=contents.js["chartist-plugin-axistitle.min.js"].url)
+      script(src=contents.js["highlight.pack.js"].url)
+      script.
+        hljs.initHighlightingOnLoad();
       link(rel='stylesheet', href=contents.css['blog-style.css'].url)
   body(class=bodyclass)
     block header
