@@ -1,4 +1,4 @@
-# [Sieveable Blog](http://sieveable.io/blog)
+# [Sieveable Blog](http://blog.sieveable.io)
 
 Powered by [Wintersmith](http://wintersmith.io)
 
